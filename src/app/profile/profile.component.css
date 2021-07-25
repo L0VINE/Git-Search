@@ -1,0 +1,31 @@
+.header h1{
+  color: #452727;
+  text-align: center;
+}
+.search{
+  padding: 3% 10%;
+}
+input{
+  background-color: #fff;
+  border: 3px solid #452727;
+  padding: 1rem 0;
+  width: 80%;
+  
+}
+.search button{
+  margin-left: 2rem;
+}
+button{
+  padding: 1rem 2rem;
+  background-color: #452727;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+#user-profile{
+  padding:3% 10% ;
+}
+.avatar{
+
+}

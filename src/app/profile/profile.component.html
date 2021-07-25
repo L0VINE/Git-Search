@@ -1,1 +1,18 @@
-<p>profile works!</p>
+<div class="header">
+  <h1>Search User</h1>
+</div>
+<div class="search">
+  <input type="text"  [(ngModel)]="userName" name = "userName" (keyup) = "getUsers($event)" aria-label="Search">
+  <button (click) = "getUsers($event)">Search</button>
+</div>
+<section id = "user-profile">
+  <div class="row">
+    <div class="col-md-6">
+      <img class = "avatar" src="{{profiles.avatar_url}}" alt="">
+      <h1></h1>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+  </div>
+</section>
