@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Idetails } from './profile';
+import { access } from 'fs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,6 +14,6 @@ export class ProfilesService {
   constructor(private http:HttpClient) { }
   
   public getProfile(userName:string):Observable<Idetails[]>{
-    return this.http.get<Idetails[]>(this.profileUrl + userName)
+    return this.http.get<Idetails[]>(this.profileUrl + userName +'/?=' +environment.token)
   }
 }
