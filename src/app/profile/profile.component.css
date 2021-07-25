@@ -57,7 +57,7 @@ button{
 hr{
   width: 50%;
   text-align: center;
-  margin: 5rem auto  0;
+  margin: 5rem auto ;
   height: 3px;
   background-color: #452727 !important;
 }

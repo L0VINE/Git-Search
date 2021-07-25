@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
 import { ProfileComponent } from './profile/profile.component';
-import { ReposComponent } from './repos/repos.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
@@ -13,7 +12,6 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HeroComponent,
     ProfileComponent,
-    ReposComponent,
     FooterComponent
   ],
   imports: [
