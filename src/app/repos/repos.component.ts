@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ReposComponent implements OnInit {
 
   constructor() { }
-
+  repos:[] = []
   ngOnInit(): void {
   }
 
