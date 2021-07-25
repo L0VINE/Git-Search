@@ -8,10 +8,13 @@ import { RepoService } from '../repo.service';
   styleUrls: ['./repos.component.css']
 })
 export class ReposComponent implements OnInit {
-
+  userName = "Awadh-Awadh"
   constructor(private repoService: RepoService) { }
   repos:[] = []
   ngOnInit(): void {
+    this.repoService.getRepos(this.userName)._subscribe(data=>{
+      this.repos = data
+    })
   }
 
 }
