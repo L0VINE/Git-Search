@@ -1,0 +1,32 @@
+.git{
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #452727;
+  font-size: 1.5rem;
+  margin-left: auto;
+  
+}
+.git:hover{
+  background-color: #452727;
+}
+.git a:hover{
+  color: white !important;
+}
+.git a{
+  color: #452727 !important;
+  text-align: center;
+}
+.fa{
+  font-size: 25px;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: #452727;
+  font-weight: 900;
+
+}
+#nav{
+  padding:2% 10%;
+}
