@@ -39,7 +39,7 @@ public getUsers(event) {
       resolve();
     },
     error => {
-      this.errorMsg = 'An error was encountered';
+      this.errorMsg = 'Error encountered';
       reject(error)
     }
   );

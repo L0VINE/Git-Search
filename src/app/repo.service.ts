@@ -14,7 +14,7 @@ export class RepoService {
 
 
  public getRepos(userName:string):Observable<IRepos[]>{
-   return this.http.get<IRepos[]>(this.profileUrl+userName+'/repos?access_token='+environment.token)
+   return this.http.get<IRepos[]>(this.profileUrl+userName+'/repos')
  }
 
 }

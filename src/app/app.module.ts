@@ -7,12 +7,14 @@ import { ProfileComponent } from './profile/profile.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { DateConvertPipe } from './date-convert.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
     ProfileComponent,
-    FooterComponent
+    FooterComponent,
+    DateConvertPipe
   ],
   imports: [
     BrowserModule,

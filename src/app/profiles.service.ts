@@ -14,7 +14,7 @@ export class ProfilesService {
   constructor(private http:HttpClient) { }
   
   public getProfile(userName:string):Observable<Idetails[]>{
-    return this.http.get<Idetails[]>(this.profileUrl+userName+'?access_token='+environment.token)
+    return this.http.get<Idetails[]>(this.profileUrl+userName)
     
   }
  
