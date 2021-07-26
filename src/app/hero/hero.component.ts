@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent implements OnInit {
-  imagePath = "/assets/cubes.png"
+  imagePath = "./assets/cubes.png"
 
   constructor() { }
   html_url = 'https://github.com/Awadh-Awadh'
