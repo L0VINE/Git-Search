@@ -24,6 +24,14 @@ button{
   font-size: 1.5rem;
   margin: 0 auto;
 }
+button:hover{
+  background-color: #fff;
+  border: 3px solid #452727;
+  color: #452727;
+  box-shadow: 
+  14px 14px 20px #cbced1,
+  -14px -14px 20px #fff;
+}
 #user-profile{
   padding:3% 10% ;
 }
@@ -47,7 +55,7 @@ button{
   height: 600px;
 }
 .user-container-repo{
-  height: 400px;
+  height: auto;
 }
 .user-container, h3,.user-container-repo h3{
   padding: 20px;

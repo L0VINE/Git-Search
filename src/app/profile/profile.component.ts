@@ -33,7 +33,7 @@ export class ProfileComponent implements OnInit {
 //  }
 
 public getUsers(event) {
-   let promise = new Promise((resolve: any , reject) => {
+   let promise = new Promise((resolve:any , reject) => {
    this.profileService.getProfile (this.userName).toPromise().then(response => {
      this.profiles = response;
       resolve();
@@ -54,7 +54,6 @@ getDetails(userName){
 SendUsers(userName){
   this.profileService.getProfile(this.userName).subscribe(data=>{
     this.profiles = data;
-    this.userName = ''
      })
 }
 }
