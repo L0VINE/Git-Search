@@ -12,7 +12,7 @@ import { RepoService } from '../repo.service';
 export class ProfileComponent implements OnInit {
   userName:string = ''
   profiles: any = [];
-  repos: any = []
+  repos: any = [];
 
   constructor(private profileService:ProfilesService, private repoService:RepoService, private http:HttpClient) { }
 

@@ -32,10 +32,10 @@ button{
   border-radius: 50%;
   
 }
-.user-container{
-  height: 500px;
+.user-container,.user-container-repo {
   width: 450px;
   padding: 10px;
+  margin: 1rem 2rem;
   border: 3px solid #452727;
   background-color: #ecf0f3;
   border-radius: 20px;
@@ -43,7 +43,13 @@ button{
   14px 14px 20px #cbced1,
   -14px -14px 20px #fff
 }
-.user-container h3{
+.user-container{
+  height: 600px;
+}
+.user-container-repo{
+  height: 400px;
+}
+.user-container, h3,.user-container-repo h3{
   padding: 20px;
   color: #452727;
 }
