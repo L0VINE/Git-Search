@@ -2,8 +2,10 @@
   <h1>Search User</h1>
 </div>
 <div class="search">
-  <input type="text"  [(ngModel)]="userName" name = "userName" (keyup) = "getUsers($event)" aria-label="Search">
-  <button (click) = "getUsers($event)">Search</button>
+ 
+    <input type="text"  [(ngModel)]="userName" name = "userName" (keyup) = "getUsers($event)" aria-label="Search">
+  <button (click) = "SendUsers($event)">Search</button>
+  
 </div>
 <section id = "user-profile">
   <div class="row">

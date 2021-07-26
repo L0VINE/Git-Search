@@ -31,4 +31,10 @@ getDetails(userName){
     this.repos = data;
   })
 }
+SendUsers(userName){
+  this.profileService.getProfile(this.userName).subscribe(data=>{
+    this.profiles = data;
+    this.userName = ''
+     })
+}
 }
