@@ -1,0 +1,70 @@
+.git{
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #452727;
+  font-size: 1.5rem;
+  margin-left: auto;
+  
+}
+.git:hover{
+  background-color: #452727;
+}
+.git a:hover{
+  color: white !important;
+}
+.git a{
+  color: #452727 !important;
+  text-align: center;
+}
+.fa{
+  font-size: 30px;
+  text-align: center;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: #452727;
+  font-weight: 900;
+
+}
+#nav{
+  padding:2% 10%;
+}
+#description{
+  padding:7% 10% 0;
+}
+.cubes{
+  width: 300px;
+  height: 300px;
+}
+.tittle h3{
+  width: 70%;
+  line-height: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #452727;
+}
+.circle{
+  width: 500px;
+  height: 400px;
+  background-color: #452727;
+  border-radius: 0% 50% 0 50%;
+
+}
+.btn{
+  background-color: #452727 !important;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+.btn-start{
+  margin: 6rem 0 3rem;
+}
+hr{
+  width: 50%;
+  text-align: center;
+  margin: 10rem auto;
+  height: 3px;
+  background-color: #452727 !important;
+}

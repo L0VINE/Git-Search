@@ -1,0 +1,77 @@
+.header h1{
+  color: #452727;
+  text-align: center;
+}
+.search{
+  padding: 3% 10%;
+}
+input{
+  background-color: #fff;
+  border: 3px solid #452727;
+  padding: 1rem 0;
+  width: 80%;
+  
+}
+.search button{
+  margin-left: 2rem;
+}
+button{
+  padding: 1rem 2rem;
+  background-color: #452727;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+button:hover{
+  background-color: #fff;
+  border: 3px solid #452727;
+  color: #452727;
+  box-shadow: 
+  14px 14px 20px #cbced1,
+  -14px -14px 20px #fff;
+}
+#user-profile{
+  padding:3% 10% ;
+}
+.avatar{
+  margin:2rem 0;
+  border-radius: 50%;
+  
+}
+.user-container,.user-container-repo {
+  width: 450px;
+  padding: 10px;
+  margin: 1rem 2rem;
+  border: 3px solid #452727;
+  background-color: #ecf0f3;
+  border-radius: 20px;
+  box-shadow: 
+  14px 14px 20px #cbced1,
+  -14px -14px 20px #fff
+}
+.user-container{
+  height: 600px;
+}
+.user-container-repo{
+  height: auto;
+}
+.user-container, h3,.user-container-repo h3{
+  padding: 20px;
+  color: #452727;
+}
+
+.button,.view-profile{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem 0;
+}
+hr{
+  width: 50%;
+  text-align: center;
+  margin: 5rem auto ;
+  height: 3px;
+  background-color: #452727 !important;
+}
