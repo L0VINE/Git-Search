@@ -9,7 +9,7 @@ export class HeroComponent implements OnInit {
   imagePath = "./assets/cubes.png"
 
   constructor() { }
-  html_url = 'https://github.com/Awadh-Awadh'
+  html_url = 'https://github.com/L0VINE'
   ngOnInit(): void {
   }
 
