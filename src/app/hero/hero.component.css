@@ -3,19 +3,19 @@
   height: 60px;
   background-color: white;
   text-align: center;
-  border: 2px solid #452727;
+  border: 2px solid #641b1b;
   font-size: 1.5rem;
   margin-left: auto;
   
 }
 .git:hover{
-  background-color: #452727;
+  background-color: #322c6b;
 }
 .git a:hover{
   color: white !important;
 }
 .git a{
-  color: #452727 !important;
+  color: #361e64 !important;
   text-align: center;
 }
 .fa{
@@ -24,12 +24,13 @@
 }
 .navbar-brand{
   font-size: 2rem;
-  color: #452727;
+  color: #17122c;
   font-weight: 900;
 
 }
 #nav{
   padding:2% 10%;
+  height: 70vh;
 }
 #description{
   padding:7% 10% 0;
@@ -48,15 +49,17 @@
 .circle{
   width: 500px;
   height: 400px;
-  background-color: #452727;
+  background-color: #111010;
   border-radius: 0% 50% 0 50%;
 
 }
 .btn{
-  background-color: #452727 !important;
+  background-color: #141313 !important;
   color: #fff;
   padding: 1rem 2rem;
   font-weight: 900;
+  border-radius: 10px;
+
 }
 .btn-start{
   margin: 6rem 0 3rem;
@@ -66,5 +69,11 @@ hr{
   text-align: center;
   margin: 10rem auto;
   height: 3px;
-  background-color: #452727 !important;
+  background-color: #2d2745 !important;
 }
+
+img{
+  width: 100%;
+  height: auto;
+}
+ 
